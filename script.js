@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         maxZoom: 19
     }).addTo(map);
-
+//javascript update
     // Coffee Shop Icon
     const coffeeIcon = L.icon({
         iconUrl: 'https://cdn-icons-png.flaticon.com/512/751/751621.png', // Generic coffee icon
@@ -71,3 +71,4 @@ document.addEventListener('DOMContentLoaded', () => {
         deliveryMarker.setLatLng([lat, lng]);
     }, 100);
 });
+
