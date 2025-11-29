@@ -11,7 +11,8 @@ user-friendly online coffee shopping experience.
 - Clean UI/UX design suitable for real-world use
 
 ## 🔗 Live Website Link
-(Your GitHub Pages link will appear here after deployment)
+
+https://eman-fatima06.github.io/iict-final-project/
 
 ## 🛠 Technologies Used
 - HTML5
