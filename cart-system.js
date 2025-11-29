@@ -13,7 +13,7 @@ class CartManager {
         this.deliveryFee = 0;
         this.taxRate = 0.1;
     }
-
+//update
     loadCart() {
         const savedCart = localStorage.getItem('brewmateCart');
         return savedCart ? JSON.parse(savedCart) : [];
@@ -742,5 +742,6 @@ window.BrewMateCart = cartManager;
 window.updateCartPreview = updateCartPreview;
 window.updateCheckoutQuantity = updateCheckoutQuantity;
 window.removeCheckoutItem = removeCheckoutItem;
+
 
 })(); // End of IIFE wrapper
